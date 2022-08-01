@@ -27,7 +27,15 @@ const Mancala = () => {
       </svg>
     </>
   );
-
+  
+  const Pit = () => (
+    <>
+    <svg width="400" height="180">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150" />
+      </svg>
+    </>
+  )
+  
   /*const ListComp = ({ id }) => (
     <>
       <ul>
@@ -71,6 +79,8 @@ const Mancala = () => {
       >
         Add Pits
       </button>
+      <Pit style={align="left"}/>
+      <Pit style={align="right"}/>
       {[...Array(commitedStonesToAdd)].map(() => (
         <Stones />
       ))}
