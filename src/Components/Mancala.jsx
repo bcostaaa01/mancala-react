@@ -20,13 +20,13 @@ const Mancala = () => {
     </>
   );
 
-  const Pits = () => (
+  /* const Pits = () => (
     <>
       <svg width="400" height="180">
         <rect x="50" y="20" rx="20" ry="20" width="150" height="150" />
       </svg>
     </>
-  );
+  ); */
   
   const Pit = () => (
     <>
@@ -85,7 +85,7 @@ const Mancala = () => {
         <Stones />
       ))}
       {[...Array(commitedPitsToAdd)].map(() => (
-        <Pits />
+        <Pit />
       ))}
     </div>
   );
