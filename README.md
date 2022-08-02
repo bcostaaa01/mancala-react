@@ -15,4 +15,8 @@
 - React.js - used to render the UI 
 - React-Draggable - used to make the stones components draggable
 
+## Running the project 
+
+This project can be accessed at https://bcostaaa01.github.io/mancala-final
+
 Side note: The project is still in progress/phase of improvements 🖌️
